@@ -1,5 +1,5 @@
 sceneSetups:
-- path: C:/Users/USER/Desktop/Image Campus/Desarrollo2/Desarrollo2 TP2 Starmap/StarMap/Assets/Scenes/SampleScene.unity
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
