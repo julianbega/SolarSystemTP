@@ -49,8 +49,9 @@ public class SolarSystem : MonoBehaviour
         if (timeToMeteors <= 0)
         {
             timeToMeteors = timeToNewMeteors;
-            Instantiate(Meteors);
             
+            GameObject meteor = Instantiate(Meteors);
+            meteor.transform.position = new Vector3(36.0f, 0.0f, 36.0f);
         }
         timeToMeteors = timeToMeteors - Time.deltaTime;
         if (mylight.intensity <= 1)
