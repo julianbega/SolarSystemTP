@@ -107,14 +107,14 @@ public class SolarSystem : MonoBehaviour
         {
             actualPlanetSelected = 8;            
         }
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.Alpha9))
         {
             actualPlanetSelected = 9;
         }
 
         if (actualPlanetSelected == 9)
         {
-            MainCam.transform.position = Spaceship.transform.position + new Vector3(-1.0f, 8.0f, -4.2f);
+            MainCam.transform.position = Spaceship.transform.position + new Vector3(-1.0f, 8.0f, 1.0f);
         }
         else if (actualPlanetSelected == 8)
         {

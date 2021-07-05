@@ -428,7 +428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainCam: {fileID: 963194225}
-  actualPlanetInSystem: 4
+  actualPlanetInSystem: 8
   PosiblePlanets:
   - {fileID: 8243069132385085811, guid: a6992ea4b99101e4bb97fdeaca660117, type: 3}
   - {fileID: 2170939101013065044, guid: 3b241c14824adbf42952bdcfc4b083f0, type: 3}
@@ -545,17 +545,17 @@ PrefabInstance:
     - target: {fileID: 2958780039601130849, guid: bc3bcfc0c39957a4eb930e0a94c53412,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.26751602
       objectReference: {fileID: 0}
     - target: {fileID: 2958780039601130849, guid: bc3bcfc0c39957a4eb930e0a94c53412,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.26751602
       objectReference: {fileID: 0}
     - target: {fileID: 2958780039601130849, guid: bc3bcfc0c39957a4eb930e0a94c53412,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3
+      value: 0.26751602
       objectReference: {fileID: 0}
     - target: {fileID: 2958780039601130849, guid: bc3bcfc0c39957a4eb930e0a94c53412,
         type: 3}
@@ -570,7 +570,7 @@ PrefabInstance:
     - target: {fileID: 2958780039601130849, guid: bc3bcfc0c39957a4eb930e0a94c53412,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -36.1
+      value: -3.61
       objectReference: {fileID: 0}
     - target: {fileID: 2958780039601130849, guid: bc3bcfc0c39957a4eb930e0a94c53412,
         type: 3}
